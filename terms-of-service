@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PMOZero – Terms of Use</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f7f7f9;
+      color: #1a1a2e;
+      line-height: 1.7;
+    }
+    .hero {
+      background: linear-gradient(135deg, #2D1F8F, #6C47FF);
+      color: #fff;
+      padding: 60px 24px 40px;
+      text-align: center;
+    }
+    .hero h1 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; }
+    .hero p  { font-size: 1rem; opacity: 0.8; }
+    .lang-switcher {
+      display: flex; justify-content: center; gap: 12px;
+      margin-top: 20px;
+    }
+    .lang-btn {
+      background: rgba(255,255,255,0.15); border: 1.5px solid rgba(255,255,255,0.4);
+      color: #fff; border-radius: 20px; padding: 6px 18px;
+      font-size: 0.85rem; font-weight: 600; cursor: pointer;
+      transition: background 0.2s;
+    }
+    .lang-btn.active { background: rgba(255,255,255,0.95); color: #2D1F8F; }
+    .container { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+    .section { background: #fff; border-radius: 16px; padding: 28px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 1.1rem; font-weight: 700; color: #2D1F8F; margin-bottom: 12px; }
+    .section p, .section li { font-size: 0.95rem; color: #444; margin-bottom: 8px; }
+    .section ul { padding-left: 20px; }
+    .updated { text-align: center; font-size: 0.82rem; color: #999; margin-top: 40px; }
+    .contact-box {
+      background: linear-gradient(135deg, #2D1F8F, #6C47FF);
+      border-radius: 16px; padding: 24px; text-align: center; color: #fff; margin-top: 16px;
+    }
+    .contact-box a { color: #FFD700; font-weight: 700; }
+    [lang="tr"] { display: none; }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Terms of Use</h1>
+  <p>PMOZero — Effective April 14, 2025</p>
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('en')">🇬🇧 English</button>
+    <button class="lang-btn"       onclick="setLang('tr')">🇹🇷 Türkçe</button>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- ══ ENGLISH ══════════════════════════════════════════════════════ -->
+  <div lang="en">
+
+    <div class="section">
+      <h2>1. Acceptance</h2>
+      <p>By downloading or using PMOZero, you agree to these Terms of Use. If you do not agree, please do not use the app.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Eligibility</h2>
+      <p>PMOZero is intended for users aged 17 and older. By using the app, you confirm that you meet this age requirement.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Not a Medical Service</h2>
+      <p>PMOZero is a self-help and personal growth tool. It is <strong>not</strong> a medical device, clinical treatment, or substitute for professional mental health care. If you are experiencing severe addiction or mental health issues, please consult a qualified healthcare provider.</p>
+      <p>The AI coach feature provides motivational and educational content only — it does not constitute medical advice.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Subscriptions & Payments</h2>
+      <ul>
+        <li>PMOZero offers auto-renewable subscriptions (Monthly and Quarterly) managed through Apple's App Store.</li>
+        <li>Payment is charged to your Apple ID account at confirmation of purchase.</li>
+        <li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.</li>
+        <li>You can manage or cancel your subscription at any time in your Apple ID account settings.</li>
+        <li>No refunds are provided for unused portions of a subscription period, except where required by law.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Acceptable Use</h2>
+      <p>You agree not to:</p>
+      <ul>
+        <li>Use the app for any unlawful purpose.</li>
+        <li>Attempt to reverse-engineer, modify, or distribute any part of the app.</li>
+        <li>Share your account credentials with others.</li>
+        <li>Use the app in any way that could damage or overburden our services.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. Intellectual Property</h2>
+      <p>All content within PMOZero — including text, graphics, AI-generated responses, and code — is the property of PMOZero and its licensors. You may not reproduce or distribute any content without prior written permission.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Disclaimer of Warranties</h2>
+      <p>PMOZero is provided "as is" without warranties of any kind. We do not guarantee that the app will be error-free, uninterrupted, or that results from using the app will meet your expectations.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Limitation of Liability</h2>
+      <p>To the fullest extent permitted by law, PMOZero shall not be liable for any indirect, incidental, or consequential damages arising from your use of the app.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Changes to Terms</h2>
+      <p>We may update these terms at any time. Continued use of the app after changes constitutes acceptance of the updated terms. We will notify users of significant changes within the app.</p>
+    </div>
+
+    <div class="section">
+      <h2>10. Governing Law</h2>
+      <p>These terms are governed by the laws of the Republic of Turkey. Any disputes shall be resolved in the courts of Istanbul, Turkey.</p>
+    </div>
+
+  </div>
+  <!-- ══ END ENGLISH ══════════════════════════════════════════════════ -->
+
+  <!-- ══ TURKISH ══════════════════════════════════════════════════════ -->
+  <div lang="tr">
+
+    <div class="section">
+      <h2>1. Kabul</h2>
+      <p>PMOZero'yu indirerek veya kullanarak bu Kullanım Şartlarını kabul etmiş olursunuz. Kabul etmiyorsanız lütfen uygulamayı kullanmayınız.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Yaş Şartı</h2>
+      <p>PMOZero, 17 yaş ve üzeri kullanıcılar için tasarlanmıştır. Uygulamayı kullanarak bu yaş şartını karşıladığınızı onaylamış olursunuz.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Tıbbi Hizmet Değildir</h2>
+      <p>PMOZero bir öz-yardım ve kişisel gelişim aracıdır. Tıbbi bir cihaz, klinik tedavi veya profesyonel ruh sağlığı hizmetinin yerine geçmez. Ciddi bağımlılık veya ruh sağlığı sorunları yaşıyorsanız lütfen nitelikli bir sağlık profesyoneline başvurun.</p>
+      <p>AI koç özelliği yalnızca motivasyonel ve eğitimsel içerik sunar — tıbbi tavsiye niteliği taşımaz.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Abonelikler ve Ödemeler</h2>
+      <ul>
+        <li>PMOZero, Apple App Store üzerinden yönetilen otomatik yenilenen abonelikler (Aylık ve 3 Aylık) sunmaktadır.</li>
+        <li>Ödeme, satın alma onaylandığında Apple ID hesabınıza tahsil edilir.</li>
+        <li>Abonelikler, mevcut dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir.</li>
+        <li>Aboneliğinizi istediğiniz zaman Apple ID hesap ayarlarınızdan yönetebilir veya iptal edebilirsiniz.</li>
+        <li>Kullanılmayan abonelik dönemleri için, yasaların zorunlu kıldığı durumlar dışında geri ödeme yapılmaz.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Kabul Edilebilir Kullanım</h2>
+      <p>Aşağıdakileri yapmamayı kabul edersiniz:</p>
+      <ul>
+        <li>Uygulamayı yasa dışı herhangi bir amaç için kullanmak.</li>
+        <li>Uygulamanın herhangi bir bölümünü tersine mühendislik, değiştirme veya dağıtmaya çalışmak.</li>
+        <li>Hesap bilgilerinizi başkalarıyla paylaşmak.</li>
+        <li>Uygulamayı hizmetlerimize zarar verebilecek veya aşırı yük bindirelebilecek şekilde kullanmak.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. Fikri Mülkiyet</h2>
+      <p>PMOZero içindeki tüm içerik — metinler, grafikler, AI tarafından oluşturulan yanıtlar ve kod dahil — PMOZero'ya ve lisans verenlerine aittir. Önceden yazılı izin alınmadan hiçbir içerik çoğaltılamaz veya dağıtılamaz.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Garanti Reddi</h2>
+      <p>PMOZero, herhangi bir garanti olmaksızın "olduğu gibi" sunulmaktadır. Uygulamanın hatasız veya kesintisiz olacağını ya da uygulamanın kullanımından elde edilen sonuçların beklentilerinizi karşılayacağını garanti etmiyoruz.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Sorumluluk Sınırlaması</h2>
+      <p>Yasaların izin verdiği azami ölçüde, PMOZero, uygulamanın kullanımından kaynaklanan dolaylı, tesadüfi veya sonuçsal zararlardan sorumlu tutulamaz.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Şartlardaki Değişiklikler</h2>
+      <p>Bu şartları istediğimiz zaman güncelleyebiliriz. Değişikliklerden sonra uygulamayı kullanmaya devam etmek, güncellenmiş şartları kabul ettiğiniz anlamına gelir. Önemli değişiklikler uygulama içinde bildirilecektir.</p>
+    </div>
+
+    <div class="section">
+      <h2>10. Geçerli Hukuk</h2>
+      <p>Bu şartlar Türkiye Cumhuriyeti yasalarına tabidir. Anlaşmazlıklar İstanbul mahkemelerinde çözüme kavuşturulacaktır.</p>
+    </div>
+
+  </div>
+  <!-- ══ END TURKISH ══════════════════════════════════════════════════ -->
+
+  <div class="contact-box">
+    <p style="font-size:1rem; font-weight:700; margin-bottom:8px;">Contact / İletişim</p>
+    <p style="font-size:0.9rem; opacity:0.85; margin-bottom:8px;">Questions about these terms? / Bu şartlar hakkında sorularınız mı var?</p>
+    <a href="mailto:support@pmozero.app">support@pmozero.app</a>
+  </div>
+
+  <p class="updated">Last updated: April 14, 2025 · Son güncelleme: 14 Nisan 2025</p>
+</div>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[lang]').forEach(el => {
+      el.style.display = el.getAttribute('lang') === lang ? 'block' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach((btn, i) => {
+      btn.classList.toggle('active', (lang === 'en' && i === 0) || (lang === 'tr' && i === 1));
+    });
+  }
+  setLang('en');
+</script>
+</body>
+</html>
